@@ -1,4 +1,5 @@
-﻿using System;
+﻿// conflict master
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,19 +17,19 @@ namespace CityInfo.API.Models
         public int Id { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// The Name of the City
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// The description of the city
         /// </summary>
         public string Description { get; set; }
 
         /// <summary>
-        /// 
+        ///
         /// The Calculated number of interest points for the City
         /// </summary>
         public int NumberOfPointsOfInterest
